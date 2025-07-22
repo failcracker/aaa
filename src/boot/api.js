@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // URL Server
 // const url = 'http://localhost:8000'
-const url = 'https://backend-absen.streamlit.app:8000'
+const url = 'https://backend-absen.streamlit.app'
 const server = axios.create({ baseURL: url })
 
 // Get Token
